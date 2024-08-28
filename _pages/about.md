@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>View my CV</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+    <p>pranati.kompella [at] gmail.com</p>
+    <p><a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a></p>
+    
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Pranati. I'm a design student and researcher studying design creativity, HCI, and design aides. I'm presently working at the [IDeaS Lab](https://cpdm.iisc.ac.in/cpdm/ideaslab/) in IISc. I have a bachelor's degree in design from [IIT Hyderabad](https://www.iith.ac.in/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my [recent work](https://pranatikomp.github.io/publications/), I examine the tools, methods, and systems that can augment human capability during the design process and conceptualise novel ones. I also study attachments and interactions in digital spaces, and am particularly interested in the cognitive phenomena that make up users' experiences with information. Some of the big questions I think about: How do humans fundamentally perceive their surroundings? How do they form a unified experience of the world? How can we employ an understanding of human cognition to augment their experiences, and what are the ethics of intervening in human experience? My reading list sheds more light on all of my interests, research or otherwise.
