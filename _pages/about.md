@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>pranati.kompella [at] gmail.com</p>
+    <p>pranati.kompella[at]gmail.com</p>
     <p><a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a></p>
     
 news: false # includes a list of news items
