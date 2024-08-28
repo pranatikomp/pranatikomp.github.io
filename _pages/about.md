@@ -6,7 +6,7 @@ subtitle: <a href='#'>View my CV</a>
 
 profile:
   align: right
-  image: website photo circle.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>pranati.kompella [at] gmail.com</p>
