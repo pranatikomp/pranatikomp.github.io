@@ -16,7 +16,7 @@ layout: default
 
   <article class="flex-container">
     {% if page.profile %}
-      <div class="profile order-1">
+      <div class="profile order-1 float-left">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
