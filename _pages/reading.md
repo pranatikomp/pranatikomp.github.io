@@ -13,11 +13,11 @@ tabs: true
     <div class="column">
         <h3><b>Academic Reading</b></h3>
         <u1>
-            Chakrabarti, A., Sarkar, P., Leelavathamma, B., & Nataraju, B. S. (2005). <b>A functional representation for aiding biomimetic and artificial inspiration of new ideas.</b> <i>Ai Edam</i>, 19(2), 113-132.
+            <li>Chakrabarti, A., Sarkar, P., Leelavathamma, B., & Nataraju, B. S. (2005). <b>A functional representation for aiding biomimetic and artificial inspiration of new ideas.</b> <i>Ai Edam</i>, 19(2), 113-132.
         </u1>
     </div>
     <div class="column">
-        <h2> General Reading </h2>
+        <h3> General Reading </h3>
         <u1>
             The Critique of Pure Reason by Immanuel Kant
         </u1>    

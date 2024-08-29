@@ -38,7 +38,7 @@ body.sticky-bottom-footer {
 
 .profile {
   img {
-    width: 70%;
+    width: 100%;
   }
   flex: 1;  
 }
@@ -55,7 +55,7 @@ body.sticky-bottom-footer {
 
 .column {
   flex: 1;
-  padding: 10px;
+  margin-right: 10px;
 }
 
 // TODO: redefine content layout.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: 
+title: leisure
+permalink: /leisure/
+description: Other stuff I do.
 nav: true
-nav_order: 2
+nav_order: 4
 display_categories: [work, fun]
 horizontal: false
 ---
