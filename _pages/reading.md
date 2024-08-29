@@ -3,7 +3,7 @@ layout: page
 permalink: /reading/
 title: reading
 heading: Reading
-description: Everything I've been reading recently
+description: A list of everything I've been reading recently.
 nav: true
 nav_order: 3
 tabs: true
@@ -11,9 +11,9 @@ tabs: true
 
 <div class="columns">
     <div class="column">
-        <h2> Academic Reading</h2>
+        <h3><b>Academic Reading</b></h3>
         <u1>
-            A functional representation for aiding biomimetic and artificial inspiration of new ideas
+            Chakrabarti, A., Sarkar, P., Leelavathamma, B., & Nataraju, B. S. (2005). <b>A functional representation for aiding biomimetic and artificial inspiration of new ideas.</b> <i>Ai Edam</i>, 19(2), 113-132.
         </u1>
     </div>
     <div class="column">
