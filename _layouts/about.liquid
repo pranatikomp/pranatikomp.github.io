@@ -14,9 +14,9 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article class="flex-container">
+  <article>
     {% if page.profile %}
-      <div class="profile order-1 float-left">
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -38,7 +38,7 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix order-2 float-right">{{ content }}</div>
+    <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
