@@ -32,10 +32,20 @@ body.sticky-bottom-footer {
 }
 
 // Profile
+.flex-container {
+  display: flex;
+}
+
 .profile {
   img {
     width: 70%;
   }
+  flex: 1;
+  margin-right: 20px;
+}
+
+.content {
+  flex: 2;
 }
 
 // Columns
