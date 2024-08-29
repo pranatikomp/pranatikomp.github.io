@@ -38,6 +38,17 @@ body.sticky-bottom-footer {
   }
 }
 
+// Columns
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
