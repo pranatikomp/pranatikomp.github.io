@@ -17,7 +17,6 @@ tabs: true
         <td text-align="top">    
             <li>Roger E. Beaty,* Mathias Benedek, Paul J. Silvia, and Daniel L. Schacter (2015). <b>Creative Cognition and Brain Network Dynamics.</b> <i>Trends in Cognitive Sciences</i>, 19(2), 113-132.
             <li>Chakrabarti, A., Sarkar, P., Leelavathamma, B., & Nataraju, B. S. (2005). <b>A functional representation for aiding biomimetic and artificial inspiration of new ideas.</b> <i>Ai Edam</i>, 19(2), 113-132.
-        </td>
         <td text-align="top">
             <li><i>The Critique of Pure Reason</i> by Immanuel Kant - reading
             <li><i>Hegel: A Very Short Introduction</i> by Peter Singer
@@ -26,6 +25,4 @@ tabs: true
             <li><i>The Color Purple</i> by Alice Walker
             <li><i>Prison Notebooks</i> by Antonio Gramsci
             <li><i>A Closed and Common Orbit</i> by Becky Chambers
-        </td>
-    </tr>
-</table>        
+                
