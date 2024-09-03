@@ -27,6 +27,22 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+table {
+  width: 70%  
+}
+
+th {
+  padding: 8px;
+  width: 50%;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 8px;
+  text-align: top;
+}
+
 .container {
   max-width: $max-content-width;
 }
@@ -56,22 +72,6 @@ body.sticky-bottom-footer {
 .column {
   flex: 1;
   margin-right: 10px;
-}
-
-table {
-  width: 70%  
-}
-
-th {
-  padding: 8px;
-  width: 50%;
-  text-align: center;
-  background-color: #f2f2f2;
-}
-
-td {
-  padding: 8px;
-  text-align: top;
 }
 
 // TODO: redefine content layout.
