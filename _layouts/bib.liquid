@@ -205,11 +205,11 @@
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
       {% endif %}
-      {% if entry.pdf %}
+      {% if entry.doi %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">VIEW</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">VIEW</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
