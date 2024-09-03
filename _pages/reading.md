@@ -11,7 +11,7 @@ tabs: true
 
 <table>
     <tr>
-        <th width="50%" background-color: #f2f2f2>Academic Reading</th>
+        <th width="50%">Academic Reading</th>
         <th width="50%">General Reading</th>
     <tr>
         <td text-align="top">    
