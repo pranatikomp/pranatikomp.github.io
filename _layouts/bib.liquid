@@ -340,6 +340,13 @@
       </div>
     {% endif %}
 
+    {% if entry.doi %}
+      <!-- Hidden DOI block -->
+      <div class="abstract hidden">
+        <a href="{entry.doi}">
+      </div>
+    {% endif %}
+
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">

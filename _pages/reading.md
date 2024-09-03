@@ -19,7 +19,7 @@ tabs: true
     <div class="column">
         <h3> General Reading </h3>
         <u1>
-            The Critique of Pure Reason by Immanuel Kant
+            <li><i>The Critique of Pure Reason</i> by Immanuel Kant
         </u1>    
     </div>        
 </div>
