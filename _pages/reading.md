@@ -9,7 +9,7 @@ nav_order: 3
 tabs: true
 ---
 
-<table>
+<table width="100%">
     <tr>
         <th width="50%">Academic Reading</th>
         <th width="50%">General Reading</th>
