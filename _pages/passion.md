@@ -5,7 +5,7 @@ permalink: /leisure/
 description: Other stuff I do.
 nav: true
 nav_order: 4
-display_categories: [work, fun]
+display_categories: [fun]
 horizontal: false
 ---
 

@@ -1,47 +1,99 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: The Teenage "Bedroom"
+description: Space, identity, and negotiations.
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+#custom style for this project
+css: bedroom.css
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work is a deep dive into the intimate space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space. Any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Completed as part of the Space Design course in IIT Hyderabad. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-4.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-7.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>    
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-18.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-3.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-5.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-6.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-8.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-9.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-10.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-11.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-12.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-13.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-14.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-15.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-16.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-19.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-17.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/space design/A4-20.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
