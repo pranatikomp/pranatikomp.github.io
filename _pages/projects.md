@@ -1,14 +1,16 @@
 ---
 layout: page
 title: projects
-permalink: https://www.behance.net/pranatikomp
+permalink: /projects/
 description: 
 nav: true
 nav_order: 2
 display_categories: [work]
 horizontal: false
 ---
+Hi! This page is still under work. In the meantime, you can check my projects out at my [Behance](https://www.behance.net/pranatikomp).
 
+<!-- 
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -63,3 +65,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+ -->
