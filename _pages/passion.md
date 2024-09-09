@@ -3,7 +3,7 @@ layout: page
 title: leisure
 permalink: /leisure/
 description: Other stuff I do.
-nav: true
+nav: false
 nav_order: 4
 display_categories: [fun]
 horizontal: false
