@@ -1,7 +1,7 @@
 ---
 layout: page
 title: projects
-permalink: /projects/
+permalink: https://www.behance.net/pranatikomp
 description: 
 nav: true
 nav_order: 2
