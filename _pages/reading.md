@@ -15,6 +15,7 @@ tabs: true
         <th width="50%">General Reading</th>
     <tr>
         <td text-align="top">    
+            <li>Hook, K. (2014, January 1). <b>Affective Computing.</b> <i>Interaction Design Foundation - IxDF.</i> https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affective-computing
             <li>Roger E. Beaty,* Mathias Benedek, Paul J. Silvia, and Daniel L. Schacter (2015). <b>Creative Cognition and Brain Network Dynamics.</b> <i>Trends in Cognitive Sciences</i>, 19(2), 113-132. <br><br>
             <li>Chakrabarti, A., Sarkar, P., Leelavathamma, B., & Nataraju, B. S. (2005). <b>A functional representation for aiding biomimetic and artificial inspiration of new ideas.</b> <i>Ai Edam</i>, 19(2), 113-132.<br><br>
         <td text-align="top">
