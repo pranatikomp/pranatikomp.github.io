@@ -10,7 +10,7 @@ related_publications: false
 css: bedroom.css
 ---
 
-This work is a deep dive into the intimate space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space. Any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". 
+This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space. Any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". 
 
 Completed as part of the Space Design course in IIT Hyderabad. 
 
