@@ -10,7 +10,7 @@ related_publications: false
 css: _sass/_bedroom.scss
 ---
 
-<link rel="stylesheet" href="assets/css/bedroom.css">
+<body style="background-color:#212121">
 
 This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space. Any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". 
 
