@@ -18,7 +18,7 @@ Completed as part of the Space Design course in IIT Hyderabad.
 
 
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 1.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 1.jpg" class="img-fluid" width="100%" %}
 </div>
 
 <div class="col-sm mt-3 mt-md-0">
