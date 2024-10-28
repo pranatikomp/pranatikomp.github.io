@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: false
 #custom style for this project
-css: assets/css/bedroom.css
+css: _sass/_bedroom.scss
 ---
 
 <link rel="stylesheet" href="assets/css/bedroom.css">
