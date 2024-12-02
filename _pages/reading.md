@@ -9,7 +9,7 @@ nav_order: 3
 tabs: true
 ---
 
-<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+<table id="table" data-toggle="table" data-url="{{ '../assets/json/table_data.json' | relative_url }}">
   <thead>
     <tr>
       <th data-field="ar">Academic Reading</th>
