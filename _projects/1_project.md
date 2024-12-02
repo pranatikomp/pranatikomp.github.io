@@ -8,10 +8,12 @@ category: work
 related_publications: false
 #custom style for this project
 ---
-<div class="background-color:red-color">
-This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space - any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". </br></br>
+<div style="background-color:red-color; padding: 20px;">
+This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space - any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". <br><br>
 
 Completed as part of the Space Design course in IIT Hyderabad. 
+
+</div>
 
 
     <div class="col-sm mt-3 mt-md-0">
@@ -98,7 +100,7 @@ Completed as part of the Space Design course in IIT Hyderabad.
         {% include figure.liquid loading="eager" path="assets/img/A4 - 21.jpg" class="img-fluid rounded" %}
     </div>
 
-</div>
+
 
 
 
