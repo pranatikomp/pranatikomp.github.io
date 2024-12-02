@@ -9,7 +9,12 @@ related_publications: false
 background-color: \#000000 !important
 #custom style for this project
 ---
-<div style="background-color: #000000 !important">
+<style>
+    body {
+    background-color: lightblue;
+  }
+</style>
+<div>
 This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space - any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". <br><br>
 
 Completed as part of the Space Design course in IIT Hyderabad. 
