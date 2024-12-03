@@ -11,7 +11,8 @@ background-color: \#000000 !important
 ---
 <style>
     body {
-    background-color: lightblue;
+    background-color: #212121;
+    text: #FFFFFF;
   }
 </style>
 <div>
@@ -31,23 +32,27 @@ Completed as part of the Space Design course in IIT Hyderabad.
  
 
  
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 3.jpg" class="img-fluid rounded" %}
-  
-
-
         {% include figure.liquid loading="eager" path="assets/img/A4 - 4.jpg" class="img-fluid rounded" %}
   
 
+
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 7.jpg" class="img-fluid rounded" %}
+  
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 18.jpg" class="img-fluid rounded" %}
+
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 3.jpg" class="img-fluid rounded" %}
+
+
     
         {% include figure.liquid loading="eager" path="assets/img/A4 - 5.jpg" class="img-fluid rounded" %}
-
+    
 
     
         {% include figure.liquid loading="eager" path="assets/img/A4 - 6.jpg" class="img-fluid rounded" %}
-
-
-    
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 7.jpg" class="img-fluid rounded" %}
     
 
     
@@ -87,15 +92,11 @@ Completed as part of the Space Design course in IIT Hyderabad.
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 17.jpg" class="img-fluid rounded" %}
-    
-
-    
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 18.jpg" class="img-fluid rounded" %}
-    
-
-    
         {% include figure.liquid loading="eager" path="assets/img/A4 - 19.jpg" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 17.jpg" class="img-fluid rounded" %}
     
 
     
@@ -103,7 +104,7 @@ Completed as part of the Space Design course in IIT Hyderabad.
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 21.jpg" class="img-fluid rounded" %}
+
     
 
 
