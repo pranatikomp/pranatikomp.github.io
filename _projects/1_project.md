@@ -2,7 +2,7 @@
 layout: page
 title: The Teenage "Bedroom"
 description: Space, identity, and negotiations.
-img: assets/img/A4 - 21.jpg
+img: assets/img/A4 - 21.png
 importance: 1
 category: work
 related_publications: false
@@ -23,83 +23,83 @@ Completed as part of the Space Design course in IIT Hyderabad. <br><br>
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 1.jpg" class="img-fluid" width="100%" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 1.png" class="img-fluid" width="100%" %}
    
 
   
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 2.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 2.png" class="img-fluid rounded" %}
  
 
  
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 4.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 4.png" class="img-fluid rounded" %}
   
 
 
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 7.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 7.png" class="img-fluid rounded" %}
   
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 18.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 18.png" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 3.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 3.png" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 5.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 5.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 6.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 6.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 8.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 8.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 9.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 9.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 10.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 10.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 11.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 11.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 12.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 12.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 13.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 13.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 14.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 14.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 15.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 15.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 16.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 16.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 19.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 19.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 17.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 17.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/A4 - 20.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/A4 - 20.png" class="img-fluid rounded" %}
     
 
     
