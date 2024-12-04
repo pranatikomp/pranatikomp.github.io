@@ -8,7 +8,7 @@ nav: true
 nav_order: 3
 tabs: true
 pretty_table: true
-
+---
 | Left aligned | Center aligned | Right aligned |
 | :----------- | :------------: | ------------: |
 | Left 1       |    center 1    |       right 1 |
