@@ -19,9 +19,9 @@ related_publications: false
     border: 1px solid #FFFFFF;
   }
 </style>
-<div class="description" style="color: #FFFFFF !important;">
+<div class="description">
   Space, identity, and negotiations.
-<div>
+<div style="color: #FFFFFF !important">
 This work is a deep dive into the space of adolescents' bedrooms. It identifies distinct forms of expression and negotiation that occur in the bedroom space. The notion of a "bedroom" is expanded beyond a physical space - any social, personal, or virtual space that a teen might appropriate to make their own is a "bedroom". <br><br>
 
 Completed as part of the Space Design course in IIT Hyderabad. <br><br>
