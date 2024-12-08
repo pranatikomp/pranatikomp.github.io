@@ -11,12 +11,13 @@ related_publications: false
 <style>
     body {
     background-color: #212121;
-  }
-  .description {
     color: #FFFFFF !important;
   }
   .img-fluid {
     border: 1px solid #FFFFFF;
+  }
+  .post-description {
+    color: #FFFFFF !important;
   }
 </style>
 
