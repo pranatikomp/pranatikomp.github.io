@@ -20,68 +20,82 @@ related_publications: false
 <div>
 Statement<br><br>
 
-This series of illustrations is based on 2022’s Inktober prompts. They feature two characters - Ivy and her bat friend Greg - and follow them on their journey through a fictional world. The drawings have been re-ordered and the captions have been modified to string them together in a loose narrative.<br><br>
+Kandi is a village near IIT Hyderabad. It is in the middle of two hubs of commerce - the big city of Hyderabad and the bustling town of Sangareddy. It is quaint, green, and peaceful, with several temples and multiple small farms. This project showcases a new brand identity for Kandi to nudge trade, commerce, and development given the presence of a national university and proximity to big cities. 
+<br><br>
+I followed a "random entry" method to arrive at an identity for Kandi. Similar to the well-known Synectics ideation method, it involves embracing a random word or idea to guide the design. Take a look at the final brand collaterals below. 
 <br><br>
 
 </div>
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 1.png" class="img-fluid" width="100%" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 1.png" class="img-fluid" width="100%" %}
    
 
   
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 2.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 16.png" class="img-fluid rounded" %}
  
 
  
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 3.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 2.png" class="img-fluid rounded" %}
   
 
 
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 4.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 3.png" class="img-fluid rounded" %}
   
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 5.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 7.png" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 6.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 4.png" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 7.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 5.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 8.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 17.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 9.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 8.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 10.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 9.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 11.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 13.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 12.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 14.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 13.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 10.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 14.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 11.png" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/graphic narrative/A4 - 15.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 12.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 15.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 19.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/kandi branding/Slide 16_9 - 18.png" class="img-fluid rounded" %}
     
