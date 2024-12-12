@@ -2,7 +2,7 @@
 layout: page
 title: The Teenage "Bedroom"
 description: Space, identity, and negotiations.
-img: assets/img/A4 - 21.png
+img: assets/img/thumbnail.png
 importance: 1
 category: work
 related_publications: false
