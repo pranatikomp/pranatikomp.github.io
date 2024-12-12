@@ -1,9 +1,9 @@
 ---
 layout: page
-title: The Teenage "Bedroom"
-description: Space, identity, and negotiations.
+title: Greg & Ivy's Adventure Storybook
+description: A series of illustrations for a kids' storybook.
 img: assets/img/graphic narrative/thumbnail.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 #custom style for this project
@@ -21,6 +21,7 @@ related_publications: false
 Statement<br><br>
 
 This series of illustrations is based on 2022’s Inktober prompts. They feature two characters - Ivy and her bat friend Greg - and follow them on their journey through a fictional world. The drawings have been re-ordered and the captions have been modified to string them together in a loose narrative.<br><br>
+Dive in!<br><br>
 
 </div>
 
