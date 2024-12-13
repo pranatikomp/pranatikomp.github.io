@@ -22,7 +22,7 @@ related_publications: false
  
 
  
-        {% include figure.liquid loading="eager" path="assets/img/participatory design/Execise 1.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/participatory design/Exercise 1.png" class="img-fluid rounded" %}
   
 
 

@@ -3,7 +3,7 @@ layout: page
 title: Greg & Ivy&#39;s Adventure Storybook
 description: A series of illustrations for a kids' storybook.
 img: assets/img/graphic narrative/thumbnail.png
-importance: 3
+importance: 4
 category: work
 related_publications: false
 #custom style for this project
