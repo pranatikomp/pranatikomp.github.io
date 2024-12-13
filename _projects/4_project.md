@@ -13,7 +13,7 @@ related_publications: false
     background-color: #ED732E;
   }
   .img-fluid {
-    border: 1px solid #8F8F8F;
+    border: 1px solid #ffffff;
   }
 </style>
 
