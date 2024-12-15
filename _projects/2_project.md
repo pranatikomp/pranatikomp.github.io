@@ -8,14 +8,6 @@ category: work
 related_publications: false
 #custom style for this project
 ---
-<style>
-    body {
-    background-color: #ffffff;
-  }
-  .img-fluid {
-    border: 1px solid #8F8F8F;
-  }
-</style>
 
 <div>
 Statement<br><br>
