@@ -9,9 +9,6 @@ related_publications: false
 #custom style for this project
 ---
 <style>
-    body {
-    background-color: #ED732E;
-  }
   .img-fluid {
     border: 1px solid #ffffff;
   }
