@@ -1,80 +1,140 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 5
-category: fun
+title: Assistive LLM Ideation Agent
+description: ALIA is an AI tool that provides inspirational stimuli based on pre-defined heuristics to assist people with design ideation. 
+img: assets/img/ALIA/Slide 16_9 - 1.png
+importance: 1
+category: work
+related_publications: false
+#custom style for this project
 ---
+<style>
+    body {
+    background-color: #ffffff;
+  }
+  .img-fluid {
+    border: 1px solid #ffffff;
+  }
+</style>
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 1.png" class="img-fluid" width="100%" %}
+   
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+  
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 2.png" class="img-fluid rounded" %}
+ 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ 
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 35.png" class="img-fluid rounded" %}
+  
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 3.png" class="img-fluid rounded" %}
+  
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 6.png" class="img-fluid rounded" %}
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 7.png" class="img-fluid rounded" %}
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 11.png" class="img-fluid rounded" %}
+    
 
-{% endraw %}
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 23.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 4.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 22.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 40.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 24.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 26.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 10.png" class="img-fluid rounded" %}
+    
+
+    
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 32.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 33.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 12.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 13.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 14.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 25.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 18.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 36.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 37.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 39.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 15.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 28.png" class="img-fluid rounded" %}
+
+
+        
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 29.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 17.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 30.png" class="img-fluid rounded" %}
+
+
+
+        {% include figure.liquid loading="eager" path="assets/img/ALIA/Slide 16_9 - 31.png" class="img-fluid rounded" %}
+
+
+
+    
