@@ -8,7 +8,7 @@ nav_order: 2
 display_categories: [work]
 horizontal: false
 ---
-Hi! This page is still under work. In the meantime, you can check my projects out at my [Behance](https://www.behance.net/pranatikomp).
+Hi! Welcome to my portfolio. Below is an assortment of diverse design projects I've completed over the years. My design process is rooted in curiosity and collaboration. I've learnt that embracing unexpected ideas - a recurring theme in a few of my projects - helps me execute my projects in the best way. Go ahead and take a look at some of my work. 
 
 <!-- 
 <!-- pages/projects.md -->
