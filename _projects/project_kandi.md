@@ -3,7 +3,7 @@ layout: page
 title: Branding - Kandi
 description: Branding for a small village near the Indian Institute of Technology, Hyderabad. 
 img: assets/img/kandi branding/thumbnail.png
-importance: 5
+importance: 6
 category: work
 related_publications: false
 #custom style for this project

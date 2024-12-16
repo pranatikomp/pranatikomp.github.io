@@ -3,7 +3,7 @@ layout: page
 title: Yogurt Company Branding
 description: Complete brand identity for a yogurt company.
 img: assets/img/yogurt branding/thumbnail.png
-importance: 3
+importance: 5
 category: work
 related_publications: false
 #custom style for this project
@@ -157,7 +157,7 @@ Create a complete brand identity for a fictional company, including visual ident
 
 
 
-        {% include video.liquid path="assets/videos/my-video.mp4" class="video-fluid rounded" autoplay="true" controls="true" %}
+        {% include video.liquid path="assets/videos/combined sequence final.mp4" class="video-fluid rounded" autoplay="true" controls="true" %}
 
     
 
