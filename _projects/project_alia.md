@@ -4,7 +4,7 @@ title: Assistive LLM Ideation Agent
 description: ALIA is an AI tool that provides inspirational stimuli based on pre-defined heuristics to assist people with design ideation. 
 img: assets/img/ALIA/thumbnail.png
 importance: 1
-category: work
+category: hci, user research, human behaviour
 related_publications: false
 #custom style for this project
 ---

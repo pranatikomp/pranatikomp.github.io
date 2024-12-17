@@ -4,7 +4,7 @@ title: Participatory Design
 description: A few exploratory exercises in participatory design.
 img: assets/img/participatory design/thumbnail.png
 importance: 2
-category: work
+category: hci, user research, human behaviour
 related_publications: false
 #custom style for this project
 ---
