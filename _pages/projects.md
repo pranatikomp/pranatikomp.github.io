@@ -5,7 +5,9 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [hci, user research, human behaviour], [illustrations, branding]
+display_categories: 
+  - [hci, user research, human behaviour]
+  - [illustrations, branding]
 horizontal: false
 ---
 Hi! Welcome to my portfolio. Below is an assortment of diverse design projects I've completed over the years. My design process is rooted in curiosity and collaboration. I've learnt that embracing unexpected ideas - a recurring theme in a few of my projects - helps me execute my projects in the best way. Go ahead and take a look at some of my work. 
