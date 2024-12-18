@@ -4,7 +4,7 @@ title: The Teenage "Bedroom"
 description: A deep dive into space, identity, and negotiations.
 img: assets/img/thumbnail.png
 importance: 4
-category: hci, user research, human behaviour
+category: hci user research human behaviour
 related_publications: false
 #custom style for this project
 ---
