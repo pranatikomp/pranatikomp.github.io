@@ -2,7 +2,7 @@
 layout: page
 title: System Design - Food Delivery
 description: Close study of on-campus food delivery system and re-design based on Synectics ideation. 
-img: assets/img/auditour/thumbnail.png
+img: assets/img/DCI/thumbnail.png
 importance: 3
 category: hci, user research, human behaviour
 related_publications: false
