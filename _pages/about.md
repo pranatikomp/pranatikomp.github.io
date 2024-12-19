@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://drive.google.com/file/d/1H3VTxWJ9ojkPedyC-P7E9AJV3x_ra7zk/view?usp=sharing'>View my CV</a> | pranati.kompella [at] gmail.com | <a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a>
+subtitle: <a href='https://drive.google.com/file/d/1Eno4bUlc_VWXs_HiXUGXUzo-aBKDDApa/view?usp=sharing'>View my CV</a> | pranati.kompella [at] gmail.com | <a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a>
 
 profile:
   align: right
