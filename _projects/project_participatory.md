@@ -8,11 +8,7 @@ category: hci, user research, human behaviour
 related_publications: false
 #custom style for this project
 ---
-<style>
-    body {
-    background-color: #ffffff;
-  }
-</style>
+
     
         {% include figure.liquid loading="eager" path="assets/img/participatory design/Title.png" class="img-fluid" width="100%" %}
    
