@@ -8,6 +8,11 @@ category: illustrations, branding
 related_publications: false
 #custom style for this project
 ---
+<style>
+  .img-fluid {
+    border: 1px solid #ffffff;
+  }
+</style>
 
 <div>
 Statement<br><br>
