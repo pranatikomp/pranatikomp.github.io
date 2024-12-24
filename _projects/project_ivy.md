@@ -10,7 +10,7 @@ related_publications: false
 ---
 <style>
   .img-fluid {
-    border: 1px solid #ffffff;
+    border: 1px solid #3d3d3d;
   }
 </style>
 
