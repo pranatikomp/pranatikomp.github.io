@@ -3,12 +3,13 @@ layout: page
 permalink: /reading/
 title: reading
 heading: Reading
-description: A list of everything I've been reading recently.
+description: Some stuff I've been reading recently.
 nav: true
 nav_order: 3
 tabs: true
 pretty_table: true
 ---
+I don't update this frequently enough, but it covers major recent reads. 
 
 <table id="table" data-toggle="table" data-url="{{ '../assets/json/table_data.json' | relative_url }}">
   <thead>
