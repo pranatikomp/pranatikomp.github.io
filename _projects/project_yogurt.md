@@ -4,7 +4,7 @@ title: Yogurt Company Branding
 description: Complete brand identity for a yogurt company.
 img: assets/img/yogurt branding/thumbnail.png
 importance: 5
-category: illustrations, branding
+category: ui, illustrations, branding
 related_publications: false
 #custom style for this project
 ---
