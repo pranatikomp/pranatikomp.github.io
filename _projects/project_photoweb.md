@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UI for a Photography Portfolio
-description: Winning entry for the D'Source Design Challenge 2022 held by IIT Bombay. 
+description: Design task to create the UI for a photographer's portfolio website.
 img: assets/img/photoweb/thumbnail.png
 importance: 9
 category: ui, illustrations, branding
