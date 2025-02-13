@@ -10,11 +10,18 @@ related_publications: false
 ---
 <style>
   .img-fluid {
-    border: 1px solid #ffffff;
+    border: 1px solid #3d3d3d;
   }
 </style>
     
         {% include figure.liquid loading="eager" path="assets/img/dsource/Frame 1.png" class="img-fluid" width="100%" %}
+
+
+        {% include figure.liquid loading="eager" path="assets/img/dsource/bs1.png" class="img-fluid" width="100%" %}
+
+        Some of our brainstorming boards:
+
+        {% include figure.liquid loading="eager" path="assets/img/dsource/bs2.png" class="img-fluid" width="100%" %}
 
 
 
