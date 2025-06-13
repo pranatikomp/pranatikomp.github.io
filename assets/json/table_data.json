@@ -4,16 +4,20 @@
     "gr": "Small Boat by Vincent Delecroix"
   },
   {
+    "ar": "Hook, K. (2014, January 1). Affective Computing. <i>Interaction Design Foundation - IxDF.</i>",
+    "gr": "The Critique of Pure Reason by Immanuel Kant - reading"
+  },
+  {
     "ar": "Hutchins, E. (1995). Cognition in the Wild. <i>MIT Press.</i>",
     "gr": "The Color Purple by Alice Walker"
   },
   {
-    "ar": "Hook, K. (2014, January 1). Affective Computing. Interaction Design Foundation - IxDF.",
-    "gr": "The Critique of Pure Reason by Immanuel Kant - reading"
-  },
-  {
     "ar": "Dotro, M. and Wittman, M. (2020). The Phenomenology and Cognitive Neuroscience of Experienced Temporality. <i>Phenomenology and Cognitive Sciences.</i>",
     "gr": "Azadi by Arundhati Roy"
+  },
+  {
+    "ar": "Wilson, R and Keil, F. (1999). The MIT Encyclopedia of Cognitive Sciences - in progress. <i>The MIT Press.</i>",
+    "gr": "Against Interpretation by Susan Sontag - reading"
   },
   {
     "ar": "Barron, F. (1955). The Disposition toward Originality. <i>Journal of Abnormal and Social Psychology.</i>",
@@ -26,5 +30,9 @@
   {
     "ar": "Kress, G. and Van Leeuwen, T. (2001). Multimodal Discourse.",
     "gr": "The Underground Railroad by Colson Whitehead"
+  },
+  {
+    "ar": "Bayor, A. et al (2021). Toward a Competency-based Approach to Co-designing Technologies with People with Intellectual Disability. <i>ACM Transactions on Accessible Computing.</i>",
+    "gr": "Parable of the Sower by Octavia Butler"
   }
 ]
