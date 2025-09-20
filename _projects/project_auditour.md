@@ -3,7 +3,7 @@ layout: page
 title: An Audio Tour App
 description: UX research and design for an audio tour app for art galleries. 
 img: assets/img/auditour/thumbnail.png
-importance: 3
+importance: 2
 category: hci, user research, human behaviour
 related_publications: false
 #custom style for this project
