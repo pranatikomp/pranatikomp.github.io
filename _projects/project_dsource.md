@@ -24,9 +24,9 @@ related_publications: false
         Some of our brainstorming boards:
   </div>      
 
-        {% include figure.liquid loading="eager" path="assets/img/dsource/bs1.png" class="img-fluid" width="100%" %}
+        {% include figure.liquid loading="eager" path="assets/img/dsource/bs1.jpeg" class="img-fluid" width="100%" %}
         
-        {% include figure.liquid loading="eager" path="assets/img/dsource/bs2.png" class="img-fluid" width="100%" %}
+        {% include figure.liquid loading="eager" path="assets/img/dsource/bs2.jpeg" class="img-fluid" width="100%" %}
 
 
 
