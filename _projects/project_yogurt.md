@@ -22,140 +22,140 @@ related_publications: false
 
 Create a complete brand identity for a fictional company, including visual identity, collaterals, brand manual, and logo animation.<br><br>
 
-Take a look at the final brand manual [here][path="assets/pdf/yogurt-company-brand-manual]. 
+Take a look at the final brand manual [here][/assets/pdf/yogurt-company-brandmanual.pdf]. 
 
 </div>
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide1.png" class="img-fluid" width="100%" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide1.PNG" class="img-fluid" width="100%" %}
 
  
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide3.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide3.PNG" class="img-fluid rounded" %}
   
 
 
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide4.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide4.PNG" class="img-fluid rounded" %}
   
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide5.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide5.PNG" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide6.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide6.PNG" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide7.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide7.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide8.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide8.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide9.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide9.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide10.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide10.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide11.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide11.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide12.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide12.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide13.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide13.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide14.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide14.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide15.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide15.PNG" class="img-fluid rounded" %}
 
 
 
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide16.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide16.PNG" class="img-fluid rounded" %}
   
 
 
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide17.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide17.PNG" class="img-fluid rounded" %}
   
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide18.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide18.PNG" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide19.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide19.PNG" class="img-fluid rounded" %}
 
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide20.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide20.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide21.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide21.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide22.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide22.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide23.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide23.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide24.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide24.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide25.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide25.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide26.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide26.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide27.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide27.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide28.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide28.PNG" class="img-fluid rounded" %}
 
 
 
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide29.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide29.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide30.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide30.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide31.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide31.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide32.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide32.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide33.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide33.PNG" class="img-fluid rounded" %}
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide34.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide34.PNG" class="img-fluid rounded" %}
 
 
 
@@ -164,7 +164,7 @@ Take a look at the final brand manual [here][path="assets/pdf/yogurt-company-bra
     
 
     
-        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide36.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/yogurt-branding/Slide36.PNG" class="img-fluid rounded" %}
     
 
     
