@@ -159,7 +159,7 @@ Take a look at the final brand manual [here](/assets/pdf/yogurt-company-brandman
 
 
 
-        {% include video.liquid path="assets/videos/combined sequence final.mp4" class="video-fluid rounded" autoplay="true" controls="true" %}
+        {% include video.liquid path="assets/video/combined-sequence-final.mp4" class="video-fluid rounded" autoplay="true" controls="true" %}
 
     
 
@@ -170,4 +170,4 @@ Take a look at the final brand manual [here](/assets/pdf/yogurt-company-brandman
     
 
 
-[Brand Manual]: /assets/pdf/yogurt-company-brand-manual.pdf
+[Brand Manual]: /assets/pdf/yogurt-company-brandmanual.pdf
