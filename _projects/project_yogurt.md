@@ -22,7 +22,7 @@ related_publications: false
 
 Create a complete brand identity for a fictional company, including visual identity, collaterals, brand manual, and logo animation.<br><br>
 
-Take a look at the final brand manual [here]({{ site.baseurl }}/assets/pdf/yogurt-company-brandmanual.pdf).
+Take a look at the final brand manual [here](https://drive.google.com/file/d/1MTUQvc1lSMT88NSP8Sqw0UM9vt6lu5Yy/view?usp=sharing).
 
 </div>
 
