@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: HCI, UX Research, UX Design | <a href='https://drive.google.com/file/d/1KcK9h4sWWCuvZW-5xoqHciAUNN8I8mf6/view?usp=drive_link'>View my CV</a> | pranati.kompella [at] gmail.com | <a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a>
+subtitle: HCI, UX Research, UX Design | <a href='https://drive.google.com/file/d/1izTUPcc9LFGo8zvrnHQH0DeHjMDBzaN7/view?usp=sharing'>View my resume</a> | pranati.kompella [at] gmail.com | <a href='https://www.linkedin.com/in/pranatikompella/'>LinkedIn</a>
 
 profile:
   align: right
