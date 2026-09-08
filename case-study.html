@@ -30,9 +30,9 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           <span>reading</span>
         </a>
-        <a class="nav-link" href="/about.html">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <span>about</span>
+        <a class="nav-link" href="/doodles.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          <span>doodles</span>
         </a>
       </div>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-drawer">
@@ -45,208 +45,251 @@
     <a href="/projects.html">projects</a>
     <a href="/publications.html">publications</a>
     <a href="/reading.html">reading</a>
-    <a href="/about.html">about</a>
+    <a href="/doodles.html">doodles</a>
   </div>
 
   <main>
 
-    <!-- ══ COVER ═════════════════════════════════════════════════ -->
-    <!-- Replace placeholder text with real project details -->
-    <div class="cs-cover">
-      <div class="cs-cover-inner">
-        <div class="card-tags" style="margin-bottom: 1rem;">
-          <span class="tag">UX Research</span>
-          <span class="tag">Interaction Design</span>
-        </div>
-        <h1 class="hero-name" style="font-size: clamp(2rem,5vw,3.5rem); margin-bottom:1rem;">
-          Project Title Placeholder
-        </h1>
-        <p style="font-size:1.0625rem; color:var(--c-muted); max-width:560px; line-height:1.65;">
-          A one-to-two sentence overview of the project and the design problem you set out to solve.
-          This line gives readers the headline before they dive into the details.
-        </p>
-
-        <!-- Meta bar: role, timeline, tools, team -->
-        <div class="cs-meta-bar">
-          <div class="cs-meta-item">
-            <span class="cs-meta-label">My Role</span>
-            <span class="cs-meta-value">UX Researcher · Designer</span>
-          </div>
-          <div class="cs-meta-item">
-            <span class="cs-meta-label">Timeline</span>
-            <span class="cs-meta-value">10 weeks · Fall 2024</span>
-          </div>
-          <div class="cs-meta-item">
-            <span class="cs-meta-label">Tools</span>
-            <span class="cs-meta-value">Figma, Miro, User Interviews</span>
-          </div>
-          <div class="cs-meta-item">
-            <span class="cs-meta-label">Team</span>
-            <span class="cs-meta-value">Solo project</span>
-          </div>
+    <!-- ══ HERO IMAGE — first thing on the page ═══════════════════ -->
+    <!-- Replace placeholder with the project's real hero image/collage -->
+    <div class="cs-hero-band">
+      <div class="container">
+        <div class="cs-hero-img-placeholder" style="margin-bottom:0;" role="img" aria-label="Project hero image placeholder">
+          Hero image — replace with actual project image
         </div>
       </div>
     </div>
 
     <div class="container">
 
-      <!-- Hero image -->
-      <div class="cs-hero-img-placeholder" role="img" aria-label="Project hero image placeholder">
-        Hero image — replace with actual project image
+      <!-- ══ TITLE + META ══════════════════════════════════════ -->
+      <div class="cs-title-block">
+        <div class="card-tags" style="margin-bottom: 1rem;">
+          <span class="tag">UX Research</span>
+          <span class="tag">Interaction Design</span>
+        </div>
+        <h1>Project Title Placeholder</h1>
+        <p class="cs-dek">
+          A one-to-two sentence overview of the project and the design problem you set out to solve.
+          This line gives readers the headline before they dive into the details.
+        </p>
+
+        <!-- Meta bar: project type, team, tools, timeline -->
+        <div class="cs-meta-bar">
+          <div class="cs-meta-item">
+            <span class="cs-meta-label">Project Type</span>
+            <span class="cs-meta-value">Capstone Project</span>
+          </div>
+          <div class="cs-meta-item">
+            <span class="cs-meta-label">Team</span>
+            <span class="cs-meta-value">Solo project</span>
+          </div>
+          <div class="cs-meta-item">
+            <span class="cs-meta-label">Tools</span>
+            <span class="cs-meta-value">Figma, Miro, User Interviews</span>
+          </div>
+          <div class="cs-meta-item">
+            <span class="cs-meta-label">Timeline</span>
+            <span class="cs-meta-value">10 weeks · Fall 2024</span>
+          </div>
+        </div>
       </div>
 
-      <!-- ══ OVERVIEW ══════════════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Overview</p>
-        <h2>The Problem</h2>
-        <div class="cs-two-col">
-          <div>
+      <!-- ══ OUTLINE NAV + CONTENT ═════════════════════════════ -->
+      <div class="cs-layout">
+
+        <!-- Left: jump-to-section outline -->
+        <nav class="cs-outline" aria-label="Case study sections">
+          <a href="#overview" class="active">Overview</a>
+          <a href="#context">Context &amp; Problem</a>
+          <a href="#research">Research</a>
+          <a href="#design-goal">Design Goal</a>
+          <a href="#design-exploration">Design Exploration</a>
+          <a href="#final-design">Final Design</a>
+          <a href="#impact">Impact</a>
+          <a href="#reflection">Reflection</a>
+          <a href="/projects.html" class="cs-outline-back">← Back to Home</a>
+        </nav>
+
+        <!-- Right: content sections -->
+        <div class="cs-content">
+
+          <!-- ══ OVERVIEW ══════════════════════════════════════ -->
+          <section class="cs-section" id="overview">
+            <p class="cs-section-label">Overview</p>
+            <div class="cs-two-col">
+              <div>
+                <h3 style="font-size:0.6875rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--c-subtle);margin-bottom:1rem;">Overview</h3>
+                <p>
+                  Describe the project in a short paragraph — the situation, who it was for,
+                  and what you set out to change. Keep this grounded and specific.
+                </p>
+              </div>
+              <div>
+                <h3 style="font-size:0.6875rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--c-subtle);margin-bottom:1rem;">What I Did</h3>
+                <ul style="list-style:disc;padding-left:1.25rem;color:var(--c-muted);line-height:1.75;">
+                  <li>Led end-to-end user research and synthesis</li>
+                  <li>Designed the primary user flows and key screens</li>
+                  <li>Built and tested the prototype</li>
+                  <li>Served as the primary point of contact with stakeholders</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- ══ CONTEXT & PROBLEM ═════════════════════════════ -->
+          <section class="cs-section" id="context">
+            <p class="cs-section-label">Context &amp; Problem</p>
+            <h2>The Problem</h2>
+            <div class="cs-two-col">
+              <div>
+                <p>
+                  Describe the design problem here. What situation were users facing?
+                  Who are the users? What was the business or research context?
+                </p>
+                <p>
+                  Add a second paragraph if needed. Focus on the gap between the
+                  current experience and the desired outcome.
+                </p>
+              </div>
+              <div>
+                <h3 style="font-size:0.6875rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--c-subtle);margin-bottom:1rem;">My Role</h3>
+                <p>
+                  Explain your specific contributions. What were you responsible for?
+                  How did you collaborate with others (if at all)?
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- ══ RESEARCH ══════════════════════════════════════ -->
+          <section class="cs-section" id="research">
+            <p class="cs-section-label">Research</p>
+            <h2>Understanding the Users</h2>
             <p>
-              Describe the design problem here. What situation were users facing?
-              Who are the users? What was the business or research context?
-              Keep this grounded and specific.
+              Describe your research methodology. What methods did you use —
+              interviews, surveys, contextual inquiry, diary studies? How many
+              participants, and how did you recruit them?
             </p>
             <p>
-              Add a second paragraph if needed. Focus on the gap between the
-              current experience and the desired outcome.
+              Summarise the most important things you learned. What surprised you?
+              What confirmed your assumptions?
             </p>
-          </div>
-          <div>
-            <h3 style="font-size:0.6875rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--c-subtle);margin-bottom:1rem;">My Role</h3>
+
+            <blockquote class="pullquote">
+              "A representative user quote that captures a core insight or pain point.
+              Replace this with a real quote from your research."
+            </blockquote>
+
+            <h3 style="font-size:1rem;font-weight:600;color:var(--c-text);margin:2rem 0 1rem;">Key Insights</h3>
+            <div class="cs-image-grid">
+              <div class="cs-img-placeholder">Affinity map / research artefact</div>
+              <div class="cs-img-placeholder">User journey or mental model</div>
+            </div>
+          </section>
+
+          <!-- ══ DESIGN GOAL ═══════════════════════════════════ -->
+          <section class="cs-section" id="design-goal">
+            <p class="cs-section-label">Design Goal</p>
+            <h2>Pain Points &amp; Design Direction</h2>
             <p>
-              Explain your specific contributions. What were you responsible for?
-              How did you collaborate with others (if at all)?
+              Synthesise your research into clear problem statements or
+              "How Might We" questions. What are the top 2–3 pain points
+              users experience, and what is the design goal that follows from them?
             </p>
-            <h3 style="font-size:0.6875rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--c-subtle);margin-top:1.5rem;margin-bottom:1rem;">Design Goal</h3>
+
+            <div class="cs-image-grid">
+              <div class="cs-img-placeholder">Problem statement / HMW cards</div>
+              <div class="cs-img-placeholder">Persona or user archetype</div>
+            </div>
+          </section>
+
+          <!-- ══ DESIGN EXPLORATION ════════════════════════════ -->
+          <section class="cs-section" id="design-exploration">
+            <p class="cs-section-label">Design Exploration</p>
+            <h2>Exploring Solutions</h2>
             <p>
-              State the goal in one clear sentence.
+              Walk through your ideation process. What concepts did you explore?
+              How did you narrow down to the direction you pursued?
+              Include sketches, wireframes, or low-fidelity explorations.
             </p>
+
+            <div class="cs-image-grid">
+              <div class="cs-img-placeholder">Sketches / lo-fi wireframes</div>
+              <div class="cs-img-placeholder">Iteration A</div>
+              <div class="cs-img-placeholder">Iteration B</div>
+              <div class="cs-img-placeholder">Mid-fi prototype</div>
+            </div>
+          </section>
+
+          <!-- ══ FINAL DESIGN ══════════════════════════════════ -->
+          <section class="cs-section" id="final-design">
+            <p class="cs-section-label">Final Design</p>
+            <h2>The Final Design</h2>
+            <p>
+              Present the final solution. Walk through the key screens or flows
+              and explain the design decisions behind each one. Tie each decision
+              back to a user need or insight from your research.
+            </p>
+
+            <!-- Full-width feature image -->
+            <div class="cs-hero-img-placeholder" style="margin:2rem 0;" role="img" aria-label="Final design placeholder">
+              Key screen or flow — replace with final designs
+            </div>
+
+            <div class="cs-image-grid">
+              <div class="cs-img-placeholder">Screen / interaction detail</div>
+              <div class="cs-img-placeholder">Screen / interaction detail</div>
+              <div class="cs-img-placeholder">Screen / interaction detail</div>
+              <div class="cs-img-placeholder">Screen / interaction detail</div>
+            </div>
+          </section>
+
+          <!-- ══ IMPACT ════════════════════════════════════════ -->
+          <section class="cs-section" id="impact">
+            <p class="cs-section-label">Impact</p>
+            <h2>Impact &amp; Outcomes</h2>
+            <p>
+              What was the result? If measurable, share quantitative outcomes
+              (task completion rate, SUS score, time-on-task, etc.).
+              If qualitative, share what changed for users.
+            </p>
+
+            <div class="outcome-grid">
+              <div class="outcome-card">
+                <p class="outcome-number">+00%</p>
+                <p>Metric description — e.g. improvement in task completion rate during usability testing.</p>
+              </div>
+              <div class="outcome-card">
+                <p class="outcome-number">00/10</p>
+                <p>Metric description — e.g. average usability score (SUS) across 8 participants.</p>
+              </div>
+              <div class="outcome-card">
+                <p class="outcome-number">00s</p>
+                <p>Metric description — e.g. reduction in average time to complete core task flow.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- ══ REFLECTION ════════════════════════════════════ -->
+          <section class="cs-section" id="reflection">
+            <p class="cs-section-label">Reflection</p>
+            <h2>What I Learned</h2>
+            <p>
+              Reflect on what you'd do differently, what confirmed your approach,
+              and what you'd explore in a future iteration. This is also a good
+              place to note any constraints that shaped your decisions.
+            </p>
+          </section>
+
+          <!-- ══ NEXT PROJECT NAV ══════════════════════════════ -->
+          <div class="cs-next">
+            <a href="/projects.html">← All projects</a>
+            <a href="/case-study.html">Next project →</a>
           </div>
-        </div>
-      </section>
 
-      <!-- ══ RESEARCH ══════════════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Discover</p>
-        <h2>Understanding the Users</h2>
-        <p>
-          Describe your research methodology. What methods did you use —
-          interviews, surveys, contextual inquiry, diary studies? How many
-          participants, and how did you recruit them?
-        </p>
-        <p>
-          Summarise the most important things you learned. What surprised you?
-          What confirmed your assumptions?
-        </p>
-
-        <blockquote class="pullquote">
-          "A representative user quote that captures a core insight or pain point.
-          Replace this with a real quote from your research."
-        </blockquote>
-
-        <h3 style="font-size:1rem;font-weight:600;color:var(--c-text);margin:2rem 0 1rem;">Key Insights</h3>
-        <div class="cs-image-grid">
-          <div class="cs-img-placeholder">Affinity map / research artefact</div>
-          <div class="cs-img-placeholder">User journey or mental model</div>
-        </div>
-      </section>
-
-      <!-- ══ DEFINE ═════════════════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Define</p>
-        <h2>Pain Points &amp; Design Direction</h2>
-        <p>
-          Synthesise your research into clear problem statements or
-          "How Might We" questions. What are the top 2–3 pain points
-          users experience?
-        </p>
-
-        <div class="cs-image-grid">
-          <div class="cs-img-placeholder">Problem statement / HMW cards</div>
-          <div class="cs-img-placeholder">Persona or user archetype</div>
-        </div>
-      </section>
-
-      <!-- ══ IDEATE / PROCESS ══════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Ideate</p>
-        <h2>Exploring Solutions</h2>
-        <p>
-          Walk through your ideation process. What concepts did you explore?
-          How did you narrow down to the direction you pursued?
-          Include sketches, wireframes, or low-fidelity explorations.
-        </p>
-
-        <div class="cs-image-grid">
-          <div class="cs-img-placeholder">Sketches / lo-fi wireframes</div>
-          <div class="cs-img-placeholder">Iteration A</div>
-          <div class="cs-img-placeholder">Iteration B</div>
-          <div class="cs-img-placeholder">Mid-fi prototype</div>
-        </div>
-      </section>
-
-      <!-- ══ SOLUTION ══════════════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Solution</p>
-        <h2>The Final Design</h2>
-        <p>
-          Present the final solution. Walk through the key screens or flows
-          and explain the design decisions behind each one. Tie each decision
-          back to a user need or insight from your research.
-        </p>
-
-        <!-- Full-width feature image -->
-        <div class="cs-hero-img-placeholder" style="margin:2rem 0;" role="img" aria-label="Final design placeholder">
-          Key screen or flow — replace with final designs
-        </div>
-
-        <div class="cs-image-grid">
-          <div class="cs-img-placeholder">Screen / interaction detail</div>
-          <div class="cs-img-placeholder">Screen / interaction detail</div>
-          <div class="cs-img-placeholder">Screen / interaction detail</div>
-          <div class="cs-img-placeholder">Screen / interaction detail</div>
-        </div>
-      </section>
-
-      <!-- ══ OUTCOMES ══════════════════════════════════════════ -->
-      <section class="cs-section">
-        <p class="cs-section-label">Outcomes</p>
-        <h2>Impact &amp; Learnings</h2>
-        <p>
-          What was the result? If measurable, share quantitative outcomes
-          (task completion rate, SUS score, time-on-task, etc.).
-          If qualitative, share what changed for users.
-        </p>
-
-        <div class="outcome-grid">
-          <div class="outcome-card">
-            <p class="outcome-number">+00%</p>
-            <p>Metric description — e.g. improvement in task completion rate during usability testing.</p>
-          </div>
-          <div class="outcome-card">
-            <p class="outcome-number">00/10</p>
-            <p>Metric description — e.g. average usability score (SUS) across 8 participants.</p>
-          </div>
-          <div class="outcome-card">
-            <p class="outcome-number">00s</p>
-            <p>Metric description — e.g. reduction in average time to complete core task flow.</p>
-          </div>
-        </div>
-
-        <h3 style="font-size:1rem;font-weight:600;color:var(--c-text);margin:2.5rem 0 1rem;">What I Learned</h3>
-        <p>
-          Reflect on what you'd do differently, what confirmed your approach,
-          and what you'd explore in a future iteration. This is also a good
-          place to note any constraints that shaped your decisions.
-        </p>
-      </section>
-
-      <!-- ══ NEXT PROJECT NAV ══════════════════════════════════ -->
-      <div class="cs-next">
-        <a href="/projects.html">← All projects</a>
-        <a href="/case-study.html">Next project →</a>
-      </div>
-
+        </div><!-- /.cs-content -->
+      </div><!-- /.cs-layout -->
     </div><!-- /.container -->
   </main>
 

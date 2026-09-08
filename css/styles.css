@@ -273,15 +273,74 @@ button {
 .hero-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
   min-height: 100vh;
+  align-items: center;
 }
 
 .hero {
-  padding: var(--space-10);
+  padding-block: var(--space-10);
 }
 
 .hero-side {
-  padding: var(--space-10);
+  padding-block: var(--space-10);
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  background: var(--c-text);
+  color: var(--c-white);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.hero-cta:hover {
+  background: var(--c-accent);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.hero-experience {
+  margin-top: var(--space-8);
+}
+
+.hero-experience-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-subtle);
+  margin-bottom: var(--space-4);
+}
+
+.hero-exp-item {
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--c-border);
+}
+
+.hero-exp-item:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.hero-exp-item h3 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 2px;
+}
+
+.hero-exp-item p {
+  font-size: 0.8125rem;
+  color: var(--c-muted);
+  margin: 0;
 }
 
 .hero-heading {
@@ -492,16 +551,37 @@ button {
 /* ================================================================
    CASE STUDY PAGE
    ================================================================ */
-.cs-cover {
+
+/* Hero image — first thing on the page, full-bleed above the container */
+.cs-hero-band {
+  padding-top: var(--space-6);
   background: var(--c-surface);
-  padding: var(--space-10) 0 var(--space-8);
-  margin-bottom: var(--space-8);
 }
 
-.cs-cover-inner {
-  max-width: var(--max-w);
-  margin-inline: auto;
-  padding-inline: var(--space-5);
+.cs-hero-band .container {
+  padding-bottom: var(--space-6);
+}
+
+/* Title + meta block, above the outline/content split */
+.cs-title-block {
+  padding: var(--space-8) 0 var(--space-7);
+}
+
+.cs-title-block h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4.5vw, 2.75rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--c-text);
+  max-width: 760px;
+  margin-bottom: 1rem;
+}
+
+.cs-title-block .cs-dek {
+  font-size: 1.0625rem;
+  color: var(--c-muted);
+  max-width: 620px;
+  line-height: 1.65;
 }
 
 .cs-meta-bar {
@@ -511,6 +591,53 @@ button {
   margin-top: var(--space-7);
   padding-top: var(--space-6);
   border-top: 1px solid var(--c-border);
+}
+
+/* Outline nav (left) + content (right) */
+.cs-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-8);
+  align-items: start;
+  padding-bottom: var(--space-9);
+}
+
+.cs-outline {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--space-6));
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-top: var(--space-2);
+}
+
+.cs-outline a {
+  font-size: 0.8125rem;
+  color: var(--c-subtle);
+  text-decoration: none;
+  padding: var(--space-2) 0 var(--space-2) var(--space-4);
+  border-left: 2px solid var(--c-border);
+  transition: color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+
+.cs-outline a:hover {
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+.cs-outline a.active {
+  color: var(--c-text);
+  font-weight: 600;
+  border-left-color: var(--c-accent);
+}
+
+.cs-outline-back {
+  margin-top: var(--space-5);
+  padding-top: var(--space-5) !important;
+  border-top: 1px solid var(--c-border);
+  border-left: none !important;
+  color: var(--c-muted) !important;
+  font-weight: 500 !important;
 }
 
 .cs-meta-item {
@@ -997,6 +1124,37 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .cs-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-outline {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-5);
+    padding-bottom: var(--space-6);
+    margin-bottom: var(--space-6);
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .cs-outline a {
+    border-left: none;
+    padding: var(--space-1) 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .cs-outline a.active {
+    border-left: none;
+    border-bottom-color: var(--c-accent);
+  }
+
+  .cs-outline-back {
+    margin-top: 0;
+    padding-top: var(--space-1) !important;
+    border-top: none;
+  }
+
   .about-grid {
     grid-template-columns: 180px 1fr;
     gap: var(--space-6);
@@ -1022,7 +1180,15 @@ button {
   .nav-toggle { display: none; }
 
   /* Hero */
-  .hero { padding: var(--space-8) 0 var(--space-7); }
+  .hero-layout {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    gap: var(--space-7);
+  }
+
+  .hero, .hero-side {
+    padding-block: var(--space-8) var(--space-7);
+  }
 
   /* Projects grid: single column */
   .projects-grid {

@@ -62,6 +62,31 @@
     }
   });
 
+  /* ── Case study outline nav: highlight section in view ──────── */
+  const outlineLinks = document.querySelectorAll('.cs-outline a[href^="#"]');
+  const outlineSections = Array.from(outlineLinks)
+    .map(link => document.getElementById(link.getAttribute('href').slice(1)))
+    .filter(Boolean);
+
+  if ('IntersectionObserver' in window && outlineSections.length) {
+    const setActive = id => {
+      outlineLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+      });
+    };
+
+    const sectionObserver = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      },
+      { rootMargin: '-40% 0px -50% 0px', threshold: 0 }
+    );
+
+    outlineSections.forEach(section => sectionObserver.observe(section));
+  }
+
   /* ── Smooth reveal on scroll (Intersection Observer) ───────── */
   const revealEls = document.querySelectorAll('.project-card, .cs-section, .pub-item');
 
