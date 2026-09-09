@@ -71,6 +71,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Landing page: a very subtle colour drift as the page scrolls */
+body.page-home {
+  background: linear-gradient(
+    to bottom,
+    #F7F6F3 0%,
+    #F3F1F7 40%,
+    #EDE8F5 70%,
+    #F5F4F2 100%
+  );
+}
+
 img, video {
   max-width: 100%;
   display: block;
@@ -123,6 +134,17 @@ button {
   background: rgba(245, 244, 242, 0.95);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
+}
+
+/* Overlay variant: floats transparently on top of a full-bleed hero image
+   (used on the case study template) instead of pushing content down. */
+.site-nav--overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .nav-inner {
@@ -286,11 +308,18 @@ button {
   padding-block: var(--space-10);
 }
 
+.hero-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
 .hero-cta {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  margin-top: var(--space-6);
   padding: 10px 20px;
   border-radius: var(--radius-pill);
   background: var(--c-text);
@@ -303,6 +332,28 @@ button {
 
 .hero-cta:hover {
   background: var(--c-accent);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.hero-resume-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--c-border);
+  background: transparent;
+  color: var(--c-text);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.hero-resume-cta:hover {
+  border-color: var(--c-accent);
+  background: var(--c-accent-light);
   text-decoration: none;
   transform: translateY(-1px);
 }
@@ -366,7 +417,7 @@ button {
 }
 
 .hero-sub {
-  font-size: clamp(0.75rem, 1.5vw, 0.85rem);
+  font-size: clamp(1rem, 1.8vw, 1.375rem);
   font-weight: 400;
   color: #8A8A8A;
   max-width: 640px;
@@ -552,14 +603,27 @@ button {
    CASE STUDY PAGE
    ================================================================ */
 
-/* Hero image — first thing on the page, full-bleed above the container */
+/* Hero image — first thing on the page, full-bleed edge-to-edge.
+   The overlay nav floats on top of it (see .site-nav--overlay). */
 .cs-hero-band {
-  padding-top: var(--space-6);
-  background: var(--c-surface);
+  width: 100%;
 }
 
-.cs-hero-band .container {
-  padding-bottom: var(--space-6);
+.cs-hero-full-img {
+  width: 100%;
+  aspect-ratio: 2.4 / 1;
+  max-height: 62vh;
+  background: var(--c-surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-subtle);
+  font-size: 0.875rem;
+}
+
+/* Wider side margins for everything except the full-bleed hero image */
+.cs-page-container {
+  padding-inline: clamp(24px, 10vw, 220px);
 }
 
 /* Title + meta block, above the outline/content split */
@@ -593,22 +657,23 @@ button {
   border-top: 1px solid var(--c-border);
 }
 
-/* Outline nav (left) + content (right) */
+/* Content column — the outline nav now lives fixed in the left margin
+   (see .cs-outline below), so this is a single-column layout. */
 .cs-layout {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: var(--space-8);
-  align-items: start;
   padding-bottom: var(--space-9);
 }
 
+/* Jump-to-section nav: pinned in the leftmost margin of the page */
 .cs-outline {
-  position: sticky;
-  top: calc(var(--nav-h) + var(--space-6));
+  position: fixed;
+  top: 50%;
+  left: var(--space-6);
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
-  padding-top: var(--space-2);
+  width: 170px;
+  z-index: 20;
 }
 
 .cs-outline a {
@@ -1124,12 +1189,16 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .cs-layout {
-    grid-template-columns: 1fr;
+  .cs-page-container {
+    padding-inline: var(--space-5);
   }
 
   .cs-outline {
     position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: auto;
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--space-2) var(--space-5);
